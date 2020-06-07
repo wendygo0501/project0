@@ -1,0 +1,29 @@
+body{
+
+}
+h1 {
+  color: blue;
+  font-family: sans-serif;
+  font-size: 100%
+}
+table,th,td {
+  border: 1px solid black;
+}
+table {
+  width:100%
+}
+img {width: 50%;height:300;
+}
+#p01{
+  color:green;
+  text-align: center;
+  font-size:200%;
+}
+.imagetext {
+  color: purple;
+  font-size: 100%;
+  font-family: cursive;
+}
+@media screen and (max-width:800px) {
+  .imagetext {width:100%; color:red;
+  }

@@ -1,0 +1,19 @@
+img {
+  width: 50%;
+  height: 300;
+}
+
+.imagetext {
+  color: purple;
+  font-size: 100%;
+  font-family: cursive;
+}
+
+@media screen and (max-width: 800px) {
+  .imagetext {
+    width: 100%;
+    color: red;
+  }
+}
+
+/*# sourceMappingURL=stylespic.css.map */
